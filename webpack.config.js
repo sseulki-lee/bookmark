@@ -20,6 +20,9 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: [".js", ".ts", ".tsx", ".json"],
+  },
   entry: `${SRC_DIR}/index.tsx`,
   output: {
     path: BUNDLES_DIR,
